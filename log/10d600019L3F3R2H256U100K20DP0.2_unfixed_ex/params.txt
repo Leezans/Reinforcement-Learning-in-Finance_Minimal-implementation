@@ -1,0 +1,10 @@
+stockCode: 600019
+env_name: 10d600019L3F3R2H256U100K20DP0.2_unfixed_ex
+seq_length: 10
+state_dim: 10
+action_dim: 21
+update policy for K epochs in one PPO update.K_epochs: 20
+eps_clip: 0.2
+gamma: 0.99
+learning rate for actor network: 0.0001
+learning rate for critic network: 0.0001
